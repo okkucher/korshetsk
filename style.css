@@ -1,0 +1,107 @@
+body {
+    font-family: sans-serif;
+    background-color: #252A54;
+}
+
+header{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-image: url("https://img5.goodfon.ru/wallpaper/big/9/a8/the-witcher-3-wild-hunt-geralt-of-rivia-vedmak-3-dikaia-ok-1.jpg");
+    background-position: 35%;
+    background-size: cover;
+    height: 690px;
+    padding-top: 390px;
+}
+
+header h1{
+    font-size: 64px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 250px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    background-color: #472F97;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 26px;
+}
+
+main h2{
+    text-align: center;
+    color: white;
+    background-color: rgb(77, 27, 128);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.pro_nas{
+    display: flex;
+    justify-content: space-around;
+    padding: 85px;
+    font-size: 26px;
+}
+
+.pro{
+    margin: 5px 40px 5px 5px;
+    color: white;
+}
+
+.personag{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pers{ 
+    width: 380px;
+    color: white;
+    text-align: center;
+    background-color: rgb(22, 19, 43);
+    margin: 10px;
+    font-size: 24px;
+}
+
+h4{
+    font-size: 32px;
+}
+
+.gde{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    font-size: 28px;
+    
+}
+
+.gde p{
+    margin: 50px;
+}
+
+.otzv{
+   display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    font-size: 28px; 
+    
+}
+
+.otzv p{
+   margin: 50px; 
+}
+
+.otzv img{
+    border-radius: 1000px;
+}
+
+footer img{
+    border-radius: 10px;
+    margin: 30px;
+}
